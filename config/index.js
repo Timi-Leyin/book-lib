@@ -1,0 +1,11 @@
+module.exports={
+  db:{
+  uri:"mongodb://localhost:27017/bookLib"
+  }, 
+  cors:{
+  origin:"https:localhost:3000"
+  }, 
+  session:{
+    secret:"mySecretKey"
+  }
+}
