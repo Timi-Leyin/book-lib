@@ -1,9 +1,9 @@
 module.exports={
   db:{
-  uri:"mongodb://localhost:27017/bookLib"
+  uri:"mongodb+srv://Timileyin:timileyin-admin@practicecluster.3le1x.mongodb.net/book-lib?retryWrites=true&w=majority"
   }, 
   cors:{
-  origin:"https:localhost:3000"
+  origin:"*"
   }, 
   session:{
     secret:"mySecretKey"
