@@ -27,7 +27,7 @@ function MsToDays( days) {
 let session ;
 
 app.use(cors({
-  origin:"*"
+  origin:"https://booklib-ui.netlify.app"
 }))
 
 app.use("./uploads", express.static("./uploads"))
